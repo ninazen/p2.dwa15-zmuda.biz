@@ -1,17 +1,22 @@
 <?php
 
+/*-------------------------------------------------------------------------------------------------
+  Index Controller class - Home Page for the site
+  Includes the Home Page feature
+-------------------------------------------------------------------------------------------------*/
 class index_controller extends base_controller {
 	
-	/*-------------------------------------------------------------------------------------------------
-
-	-------------------------------------------------------------------------------------------------*/
+    /*-------------------------------------------------------------------------------------------------
+      Construct simply calls the parent construct  
+    -------------------------------------------------------------------------------------------------*/
 	public function __construct() {
 		parent::__construct();
 	} 
 		
-	/*-------------------------------------------------------------------------------------------------
-	Accessed via http://localhost/index/index/
-	-------------------------------------------------------------------------------------------------*/
+   	/*-------------------------------------------------------------------------------------------------
+      Index is the default controller method
+      This default home page (/index/index) is loaded and rendered
+    -------------------------------------------------------------------------------------------------*/
 	public function index() {
 		
 		# Any method that loads a view will commonly start with this
@@ -19,9 +24,12 @@ class index_controller extends base_controller {
 			$this->template->content = View::instance('v_index_index');
 			
 		# Now set the <title> tag
-			$this->template->title = "Hello World";
+			$this->template->title = "aSkitter";
+
+		# Now set the <middle_color> tag
+			$this->template->middle_color = "azure";
 	
-		# CSS/JS includes
+		# CSS/JS includes (none required here)
 			/*
 			$client_files_head = Array("");
 	    	$this->template->client_files_head = Utils::load_client_files($client_files);
