@@ -7,7 +7,8 @@ What else can you do here? <br>
 You can see skeets from everyone you're following and post your own skeets.<br>
 You can follow other skeeters on the site and they can follow you.<br>
 You can click your name under the logo to see your info.<br>
-You can upload a picture to be your avatar.<br>
+You can also edit your information from that page.<br>
+And you can clear out all the skitter too.<br>
 
 <?php # Display links for logged in users ?>
 <?php if ($user): ?>
