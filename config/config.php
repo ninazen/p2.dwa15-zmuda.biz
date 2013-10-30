@@ -31,7 +31,7 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'isleofsunsets@live.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'p2_dwa15-zmuda_biz'); 
+	define('DB_NAME', 'dwazmuda_p2_dwa15-zmuda_biz'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
