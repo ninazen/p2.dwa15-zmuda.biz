@@ -14,7 +14,7 @@
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
                                         
     <!-- JS Files we want on every page -->
-    <script type="/text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>                                
+    <!-- <script type="/text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>                                
     <!-- <script src="html/js/jquery-1.8.2.js"></script> -->
     <!-- <script src="html/js/bootstrap.js"></script> -->
     <!-- <script src="html/js/scripts.js"></script> -->
@@ -44,8 +44,7 @@
 
         <!-- Global Navigation -->
         <div id="navigation">
-    	    <nav>
-                <menu class="nav navbar nav-list">
+    	    <nav class="nav navbar nav-list">
                 <!-- Removed 'Home' link to declutter, just use logo -->    
 
                     <!-- Nav Links for logged in users -->
@@ -75,7 +74,6 @@
                         </div>
  
                 	<?php endif; ?>
-            	</menu>
             </nav>
         </div>
 
