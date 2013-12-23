@@ -1,5 +1,5 @@
 <!-- Main Index Page (Home Page) -->
-<h1> Welcome! </h1>
+<h1> Welcome to P4! </h1>
 <b>Here's where you can see the latest news, rumors, and gossip from people in your world. </b><br><br>
 
 Okay, that's fun, but ... <br>

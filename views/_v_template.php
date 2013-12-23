@@ -12,6 +12,7 @@
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/tiktok.css" rel="stylesheet" type="text/css">
                                         
     <!-- JS Files we want on every page -->
     <!-- <script src="html/js/jquery-1.8.2.js"></script> -->
@@ -32,7 +33,14 @@
         <div id="top">
    		
        		<!-- Logo, also links to the home page -->
-            <a href="/"><img src="/img/aSkitterLogo.jpg" alt="Home Page"></a>
+            <a href="/"><img src="/images/aSkitterLogo.jpg" alt="Home Page"></a>
+
+            <!-- Tik Tok link, for logged in users -->
+            <?php if($user): ?>
+                <div class="tiktok-button">
+                    <a href="/tiktok.php"><img src="/images/tiktok-btn.png" alt="Tik Tok"></a>
+                </div>
+            <?php endif; ?>
 
        		<!-- Welcome Message for logged in users -->
         	<?php if($user): ?>
